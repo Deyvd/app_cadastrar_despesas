@@ -196,7 +196,7 @@ function carregaListaDespesas(despesas = Array(), filtro = false) {
 
             let id =  this.id.replace('id_despesa_', '')
 
-            alert(`deseja remover a despesa ${this.descricao}`)
+            alert(`Tem certeza que deseja remover " ${d.descricao} " da sua conta`)
 
             bd.remover(id)
 
